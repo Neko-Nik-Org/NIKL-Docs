@@ -8,7 +8,37 @@
   --ifm-color-primary-lightest: #99e6ff;
 
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 180, 255, 0.1); /* subtle blue glow */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 180, 255, 0.1); 
+  
+  /* Global theme variables for consistent styling */
+  --site-primary-hue-saturation: 196, 100%;
+  --site-primary-hue-saturation-light: 196, 80%;
+  
+  /* Light theme specific colors */
+  --hero-bg-start: rgba(0, 150, 215, 0.3);
+  --hero-bg-end: #deeaf8;
+  --features-bg-start: #deeaf8;
+  --features-bg-end: #cce0f5;
+  --cta-bg-start: #cce0f5;
+  --cta-bg-end: #bbceeb;
+  
+  /* Text and UI element colors */
+  --text-color: #0a2540;
+  --text-color-secondary: #1a3a5f;
+  --feature-bg: #ffffff; 
+  --feature-border: rgba(0, 150, 215, 0.15);
+  --feature-shadow: rgba(0, 0, 0, 0.1);
+  --feature-hover-shadow: rgba(0, 120, 215, 0.25);
+  --feature-hover-border: rgba(0, 180, 255, 0.5);
+  --feature-glow: rgba(0, 150, 215, 0.3);
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  
+  /* Font settings */
+  --ifm-font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  /* Animation settings */
+  --ifm-transition-fast: 200ms;
+  --ifm-transition-timing-default: cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 [data-theme='dark'] {
@@ -20,5 +50,25 @@
   --ifm-color-primary-lighter: #66f1ff;
   --ifm-color-primary-lightest: #99f6ff;
 
-  --docusaurus-highlighted-code-line-bg: rgba(0, 229, 255, 0.15); /* neon glow */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 229, 255, 0.15); 
+  
+  /* Dark theme specific colors */
+  --hero-bg-start: #001a2e;
+  --hero-bg-end: #00304d;
+  --features-bg-start: #00304d;
+  --features-bg-end: #002540;
+  --cta-bg-start: #002540;
+  --cta-bg-end: #001525;
+  
+  /* Text and UI element colors */
+  --text-color: #e6f7ff;
+  --text-color-secondary: #b3e0ff;
+  --feature-bg: rgb(0, 30, 50);
+  --feature-border: rgba(0, 180, 255, 0.1);
+  --feature-shadow: rgba(0, 0, 0, 0.2);
+  --feature-hover-shadow: rgba(0, 180, 255, 0.3);
+  --feature-hover-border: rgba(0, 180, 255, 0.6);
+  --feature-glow: rgba(0, 180, 255, 0.4);
+  --card-shadow: rgba(0, 0, 0, 0.2);
 }
+
