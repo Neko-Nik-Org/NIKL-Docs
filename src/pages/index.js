@@ -51,8 +51,8 @@ const features = [
   {
     title: 'Module System',
     description: 'Organize your code into reusable modules.',
-    },
-    {
+  },
+  {
     title: 'Package Management',
     description: 'Easily manage dependencies with NIKL packages.',
   },
