@@ -101,7 +101,7 @@ const config = {
                                 href: 'https://nikl-pkg.nekonik.com',
                             },
                             {
-                                label:'NIKL Newsletter',
+                                label:'Neko Nik - Newsletter',
                                 href:'https://mailer.nekonik.com/subscription/form'
                             }
                         ],
